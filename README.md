@@ -1,60 +1,47 @@
-#  JavaScript Learning Projects
+# JavaScript Practice Projects: Calendar, Number Checker & For Loops
 
-Welcome to my JavaScript Learning Repository!  
-This repo contains small programs and exercises I created to build a solid foundation in JavaScript using **Node.js**.
+This beginner-focused JavaScript project includes **three interactive terminal tools**:
 
-##  Project: Number Checker
-
-This script demonstrates:
-- How to use the `readline` module to accept input from the terminal.
-- Function creation and invocation in JavaScript.
-- Control flow using `if-else` and `switch-case`.
-
-###  What It Does
-- Prompts the user to enter a number.
-- Tells whether the number is **even** or **odd**.
-- Prints a message if the number is **1, 2, or 3** (or something else).
-- Delays program exit for 10 seconds after the output.
-
-###  Technologies Used
-- [Node.js](https://nodejs.org/) (JavaScript runtime)
-- Built-in `readline` module for handling user input
+1. ** Text-Based Monthly Calendar** – Display a calendar for any month and year.
+2. ** Number Checker** – Identify if a number is even/odd, prime, and divisible by another number.
+3. **For Loop Practice** – Learn and test basic and nested `for` loop concepts.
 
 ---
 
-## How to Run This Program
+## 🛠 Features
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/javascript-learning.git
-   cd javascript-learning
-# JavaScript Learning Projects
+###  1. Calendar Generator
+- User enters a month and a year.
+- Displays a properly aligned monthly calendar in the terminal.
+- Uses JavaScript `Date` objects to calculate:
+  - The weekday the month starts on.
+  - The total number of days in the month (accounts for leap years).
+- Uses a `for` loop to format and print the calendar.
 
-Welcome to my JavaScript Learning Repository!  
-This repo contains small programs and exercises I created to build a solid foundation in JavaScript using **Node.js**.
+###  2. Number Checker
+- User enters a number.
+- Tells if it's:
+  - Even or odd
+  - Prime or not
+  - Divisible by a given number (optional input)
+- Demonstrates use of conditionals and modular arithmetic.
 
-## Project: Number Checker
-
-This script demonstrates:
-- How to use the `readline` module to accept input from the terminal.
-- Function creation and invocation in JavaScript.
-- Control flow using `if-else` and `switch-case`.
-
-### What It Does
-- Prompts the user to enter a number.
-- Tells whether the number is **even** or **odd**.
-- Prints a message if the number is **1, 2, or 3** (or something else).
-- Delays program exit for 10 seconds after the output.
-
-### Technologies Used
-- [Node.js](https://nodejs.org/) (JavaScript runtime)
-- Built-in `readline` module for handling user input
+### 3. For Loop Practice
+- Includes examples like:
+  - Printing number patterns
+  - Simple multiplication tables
+  - Nested loops for grids or stars (`*`)
+- Users can interactively select what type of `for` loop they want to see or practice.
 
 ---
 
-## How to Run This Program
+##  Technologies Used
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/javascript-learning.git
-   cd javascript-learning
+- JavaScript (Node.js)
+- Built-in `readline` module for terminal input
+- Control flow: `if`, `for`, `while`
+- Math & logic functions
+- `Date` objects and formatting
+
+---
+
